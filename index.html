@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ebere.css">
+    <script src="https://kit.fontawesome.com/dcaedc3087.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-image: url(img/background.jpeg);">
+    <!--nav menu-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo/logo2.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!--nav menu ends-->
+            <div class="header-text">
+                <p>Front-End and Back-End Developer.</p>
+                <h1>I am <span>Joseph Ibekwe </span><br> I live in Germany</h1>
+            </div>
+        </div>
+    </div>
+    <!--about me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/p4.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-about">About Me</h1>
+                    <p>I’m an engineer transitioning into the field of Information Technology, with a growing focus on
+                        web development. My background has given me a solid foundation in problem-solving, structured
+                        thinking, and technical communication. As I build my skills in front-end and back-end
+                        development, I'm particularly interested in creating clean, user-friendly websites and learning
+                        modern technologies like HTML, CSS, JavaScript, and React. I enjoy the creative and logical
+                        aspects of coding and am committed to continuous learning and contributing to meaningful
+                        web-based solutions.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Develop and maintain user interfaces</span><br>using HTML, CSS, and JavaScript.
+                            </li>
+                            <li><span>Ensure responsive design</span><br>across devices (desktop, tablet, mobile)</li>
+                            <li><span>Use frameworks/libraries </span><br>like React, Angular, or Vue.js.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014</span><br>Federal University Of Technology Owerri.
+                            </li>
+                            <li><span>2024</span><br>Cousera(IT Support)</li>
+                            <li><span>2025</span><br>Cousera(Meta Front-End Developer)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Develop and maintain user interfaces</span><br>using HTML, CSS, and JavaScript.
+                            </li>
+                            <li><span>Ensure responsive design</span><br>across devices (desktop, tablet, mobile)</li>
+                            <li><span>Use frameworks/libraries </span><br>like React, Angular, or Vue.js.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---about ends here-->
+
+    <!--services starts here-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    growing in the field of web design and contribute to projects that bring ideas to life on the
+                    web.
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development</h2>
+                    <p>I’m a passionate and detail-oriented web designer with a growing skill set in creating visually
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>IT Support</h2>
+                    <p>I’m a passionate and detail-oriented web designer with a growing skill set in creating visually
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work5.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to talented people around the world. Download it from Playstore.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work4.jpeg">
+                    <div class="layer">
+                        <h3>Cleaning Company</h3>
+                        <p>The app connects you to talented people around the world. Download it from Playstore.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work3.jpeg">
+                    <div class="layer">
+                        <h3>Real Estate Company</h3>
+                        <p>The app connects you to talented people around the world. Download it from Playstore.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-----contact starts here------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mystickaycee@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>015217781758</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="img/cv2025.docx" download class="btn btn2">Download C.V</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;2025 Joseph. All rights reserved.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!----js for the about-->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");<!--for  the about ends-->
+        }
+
+
+
+    </script>
+    <script>
+        var menu = document.getElementById("sidemenu");
+         function openmenu() {
+            sidemenu.style.right = 0;
+            
+         }
+          function closemenu() {
+            sidemenu.style.right = -200;
+            
+         }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyaU9tJiBE_7GNOvxBQ8kSFonazypCpCd9eyPD7RbcatPgJpZuPTWWEBIS7sotvKYM1vQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')  // Corrected
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function () {
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+
+</html>
